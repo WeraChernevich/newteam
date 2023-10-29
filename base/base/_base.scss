@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Ruberoid';
+    src: url('./../font/Ruberoid-Regular.woff2');
+}
+
+@font-face {
+    font-family: 'Ruberoid';
+    src: url('./../font/Ruberoid-Medium.woff2');
+}
+
+@font-face {
+    font-family: 'Ruberoid';
+    src: url('./../font/Ruberoid-SemiBold.woff2');
+}
+
+@font-face {
+    font-family: 'Ruberoid';
+    src: url('./../font/Ruberoid-Bold.woff2');
+}
+
+@font-face {
+    font-family: 'Ruberoid';
+    src: url('./../font/Ruberoid-ExtraBold.woff2');
+}
+
+:root {
+    --index: (1vw + 1vh);
+}
+
+* {
+    font-family: 'Ruberoid', sans-serif;
+    // border: 1px solid #fff;
+}
+
+body {
+    background: #161617;
+    width: 100vw;
+}
+
+h2 {
+    padding-bottom: calc(var(--index));
+    font-size: calc(var(--index) * 1.4);
+    font-weight: 400;
+    background: linear-gradient(91deg, #B5FEEF 10.31%, #2EECC5 165.09%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h3 {
+    color: #FFF;
+    font-size: calc(var(--index) * .8);
+    font-weight: 400;
+    line-height: 123.1%;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: calc(var(--index) * .5);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+a {
+    color: #fff;
+}
